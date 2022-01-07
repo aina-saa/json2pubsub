@@ -1,0 +1,18 @@
+substitutions:
+  _ARTIFACT_BUCKET: "substitute-me-with-something-real-in-the-build-trigger"
+
+steps:
+  - id: build
+    name: golang
+    entrypoint: /bin/bash
+    args: 
+      - -c
+      - |
+        ./build.sh
+artifacts:
+  objects:
+    location: "gs://${_ARTIFACT_BUCKET}/$BRANCH_NAME/$COMMIT_SHA/"
+    paths:
+    - json2pubsub
+
+# eof
