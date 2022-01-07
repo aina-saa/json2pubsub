@@ -8,7 +8,7 @@ Usage: json2pubsub --project=STRING <mapping> ...
 Reads JSON object (stream) from file and routes it/them to GCP Pub/Sub topics.
 
 Arguments:
-  <mapping> ...    Format: json.field=value:projects/my-gcp-project-id/topics/my-topic-for-value json.field=value2:projects/my-gcp-project-id/topics/my-topic-for-value2
+  <mapping> ...    Format: VALUE=json.field:my-topic-for-value VALUE2=json.field:my-topic-for-value2
 
 Flags:
   -h, --help              Show context-sensitive help.

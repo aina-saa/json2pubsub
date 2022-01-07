@@ -22,7 +22,7 @@ func (v VersionFlag) BeforeApply(app *kong.Kong, vars kong.Vars) error {
 
 var CLI struct {
 	Project string            `help:"Google Cloud Platform project id where the Pub/Sub topics in mappings are located in." required:"true"`
-	Mapping map[string]string `help:"Format: json.field=value:projects/my-gcp-project-id/topics/my-topic-for-value json.field=value2:projects/my-gcp-project-id/topics/my-topic-for-value2" arg:""`
+	Mapping map[string]string `help:"Format: VALUE=json.field:my-topic-for-value VALUE2=json.field:my-topic-for-value2" arg:""`
 	File    string            `help:"Input file or '-' for stdin" name:"file" type:"existingfile" short:"f" default:"-"`
 	Version VersionFlag       `name:"version" help:"Print version information and quit"`
 	Quiet   bool              `help:"Be quiet." negatable:"true" default:"false"`
