@@ -33,7 +33,7 @@ func main() {
 
 	kong_ctx := kong.Parse(&CLI,
 		kong.Name("json2pubsub"),
-		kong.Description("Reads JSON object (stream) from file and routes it/them to GCP Pub/Sub topics."),
+		kong.Description("Reads JSON object (stream) from file/stdin and routes it/them to GCP Pub/Sub topics."),
 	)
 	switch kong_ctx.Command() {
 	default:
