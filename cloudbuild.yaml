@@ -1,5 +1,6 @@
 substitutions:
   _ARTIFACT_BUCKET: "substitute-me-with-something-real-in-the-build-trigger"
+  _BIN_NAME: "json2pubsub"
 
 steps:
   - id: build
@@ -11,8 +12,8 @@ steps:
         ./build.sh
 artifacts:
   objects:
-    location: "gs://${_ARTIFACT_BUCKET}/json2pubsub/$BRANCH_NAME/$COMMIT_SHA/"
+    location: "gs://${_ARTIFACT_BUCKET}/${_BIN_NAME}/$BRANCH_NAME/$COMMIT_SHA/"
     paths:
-    - json2pubsub
+    - ${_BIN_NAME}
 
 # eof
