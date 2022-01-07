@@ -11,7 +11,7 @@ steps:
         ./build.sh
 artifacts:
   objects:
-    location: "gs://${_ARTIFACT_BUCKET}/$BRANCH_NAME/$COMMIT_SHA/"
+    location: "gs://${_ARTIFACT_BUCKET}/json2pubsub/$BRANCH_NAME/$COMMIT_SHA/"
     paths:
     - json2pubsub
 
