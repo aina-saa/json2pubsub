@@ -13,7 +13,7 @@ import (
 )
 
 func Process(ctx context.Context, project, file string, mapping_proposal map[string]string, quiet bool) {
-	client, err := pubsub.NewClient(ctx, project) // empty project as we wish to give the project name in routing info
+	client, err := pubsub.NewClient(ctx, project)
 	if err != nil {
 		log.Fatal(err)
 	}
