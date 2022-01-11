@@ -12,7 +12,7 @@ steps:
         ./build.sh
 artifacts:
   objects:
-    location: "gs://${_ARTIFACT_BUCKET}/${_BIN_NAME}/${BRANCH_NAME}/${COMMIT_SHA}/"
+    location: "gs://${_ARTIFACT_BUCKET}/${_BIN_NAME}/${BRANCH_NAME}/"
     paths:
     - ${_BIN_NAME}
 
