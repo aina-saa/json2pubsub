@@ -45,7 +45,7 @@ Login credentials for GCP are pulled from GCE metadata server or you can provide
 ## Usage example (from stdin)
 
 ```sh
-cat my-file.json | json2pubsub --project=my-project-id --file=my-file.json EHLO=Kind:ehlo-topic HELLO=Kind:hello-topic
+cat my-file.json | json2pubsub --project=my-project-id EHLO=Kind:ehlo-topic HELLO=Kind:hello-topic
 ```
 
 Again, credentials are detected based on service account login flow.
