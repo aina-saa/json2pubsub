@@ -3,7 +3,7 @@ module github.com/aina-saa/json2pubsub
 go 1.17
 
 require (
-	cloud.google.com/go/pubsub v1.22.1
+	cloud.google.com/go/pubsub v1.22.2
 	github.com/Jeffail/gabs/v2 v2.6.1
 	github.com/alecthomas/kong v0.5.0
 )
