@@ -5,7 +5,7 @@ go 1.17
 require (
 	cloud.google.com/go/pubsub v1.22.2
 	github.com/Jeffail/gabs/v2 v2.6.1
-	github.com/alecthomas/kong v0.5.0
+	github.com/alecthomas/kong v0.6.0
 )
 
 require (
@@ -16,7 +16,6 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
 	golang.org/x/oauth2 v0.0.0-20220524215830-622c5d57e401 // indirect
