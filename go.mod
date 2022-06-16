@@ -5,7 +5,7 @@ go 1.17
 require (
 	cloud.google.com/go/pubsub v1.22.2
 	github.com/Jeffail/gabs/v2 v2.6.1
-	github.com/alecthomas/kong v0.6.0
+	github.com/alecthomas/kong v0.6.1
 )
 
 require (
