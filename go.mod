@@ -3,7 +3,7 @@ module github.com/aina-saa/json2pubsub
 go 1.17
 
 require (
-	cloud.google.com/go/pubsub v1.27.0
+	cloud.google.com/go/pubsub v1.27.1
 	github.com/Jeffail/gabs/v2 v2.6.1
 	github.com/alecthomas/kong v0.7.1
 )
@@ -26,7 +26,7 @@ require (
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/api v0.103.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6 // indirect
+	google.golang.org/genproto v0.0.0-20221201164419-0e50fba7f41c // indirect
 	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
