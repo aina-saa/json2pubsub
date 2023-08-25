@@ -9,7 +9,7 @@ steps:
     args: 
       - -c
       - |
-        ./build.sh
+        CGO_ENABLED=0 ./build.sh
 artifacts:
   objects:
     location: "gs://${_ARTIFACT_BUCKET}/${_BIN_NAME}/${BRANCH_NAME}/"
