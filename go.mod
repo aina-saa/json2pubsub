@@ -1,6 +1,8 @@
 module github.com/aina-saa/json2pubsub
 
-go 1.17
+go 1.23.0
+
+toolchain go1.23.5
 
 require (
 	cloud.google.com/go/pubsub v1.41.0
@@ -32,7 +34,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/crypto v0.25.0 // indirect
 	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/oauth2 v0.21.0 // indirect
+	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.22.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
