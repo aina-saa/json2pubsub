@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-version="0.0.4"
+version="0.1.0"
 time=$(date)
 hash=$(git log -n 1 --pretty=format:"%H")
 hostname=$(hostname)
