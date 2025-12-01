@@ -7,7 +7,7 @@ toolchain go1.24.3
 require (
 	cloud.google.com/go/pubsub v1.50.1
 	github.com/Jeffail/gabs/v2 v2.7.0
-	github.com/alecthomas/kong v1.12.1
+	github.com/alecthomas/kong v1.13.0
 )
 
 require (
